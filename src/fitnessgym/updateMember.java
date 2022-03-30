@@ -79,7 +79,6 @@ public class updateMember extends javax.swing.JFrame {
         btnClose = new javax.swing.JButton();
         btnClear = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
 
@@ -392,9 +391,6 @@ public class updateMember extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(0, 51, 51));
 
-        jLabel2.setBackground(new java.awt.Color(0, 51, 51));
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fitnessgym/noBG.png"))); // NOI18N
-
         jLabel16.setBackground(new java.awt.Color(0, 51, 51));
         jLabel16.setFont(new java.awt.Font("Tekton Pro", 1, 36)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(255, 231, 57));
@@ -406,17 +402,16 @@ public class updateMember extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(jLabel2)
-                .addGap(173, 173, 173)
+                .addGap(333, 333, 333)
                 .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 514, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(11, 11, 11)
-                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11))
         );
 
         jButton1.setText("Update");
@@ -727,7 +722,6 @@ String uID;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
