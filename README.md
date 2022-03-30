@@ -1,2 +1,2 @@
 # GymManagementSystem
-Java, MySQL, beansbinding
+Java, Swing GUI, MySQL, beans binding
