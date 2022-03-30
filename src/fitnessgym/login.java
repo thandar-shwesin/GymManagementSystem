@@ -93,7 +93,7 @@ private static String uName, password;
 
         jLabel6.setFont(new java.awt.Font("Vani", 2, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(51, 51, 255));
-        jLabel6.setText("Sign In.");
+        jLabel6.setText("Sign up.");
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel6MouseClicked(evt);
