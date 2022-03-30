@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="FitnessGymPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>fitnessgym.Login_1</class>
+    <class>fitnessgym.Memberdetails</class>
+    <class>fitnessgym.Morememberdetails</class>
+    <class>fitnessgym.Members</class>
+    <class>fitnessgym.Memberdata</class>
+    <class>fitnessgym.Memberinfo</class>
+    <class>fitnessgym.Memberinfos</class>
+    <class>fitnessgym.Memberdatas</class>
+    <class>fitnessgym.Trainer</class>
+    <class>fitnessgym.Trainerdata</class>
+    <class>fitnessgym.Facilitydata</class>
+    <class>fitnessgym.Facility</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/fitnessgym?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
